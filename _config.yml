@@ -5,10 +5,14 @@ plugins:
   - jekyll-octicons
   - jekyll-github-metadata
   - jemoji
-  - jekyll-katex
+  # - jekyll-katex
 
 permalink: /:year/:month/:day/:title/
 
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+  
 defaults:
   -
     scope:
