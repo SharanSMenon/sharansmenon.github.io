@@ -23,6 +23,10 @@ Some of the programming tools that I work with include:
 
 Well, thats it for now, stay tuned for more posts to come in the future.
 
+<!-- {% katex display %}
+c = \pm\sqrt{a^2 + b^2}
+{% endkatex %} -->
+
 Bye!
 
 
