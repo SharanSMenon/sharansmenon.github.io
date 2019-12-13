@@ -1,0 +1,77 @@
+layout: stacked
+style: light
+
+plugins:
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
+  - jekyll-katex
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+projects:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 12
+  exclude:
+    archived: true
+    forks: true
+    projects:
+    - SharanFiles
+    - Programming
+    - ChartJsProject
+    - 
+    
+
+social_media:
+  # behance: your_username
+  # dribbble: your_username
+  # facebook: your_username
+  hackerrank: sharansajivmenon
+  # instagram: your_username
+  # keybase: your_username
+  # linkedin: your_username
+  # mastodon: your_username
+  # medium: your_username
+  # stackoverflow: your_user_id
+  # telegram: your_username
+  twitter: SharanSajiv
+  # unsplash: your_username
+  # vk: your_username
+  # website: http://your_website_url
+#   youtube: you
+
+topics:
+  - name: Python
+    web_url: https://github.com/topics/python
+    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png
+
+  - name: React
+    web_url: https://github.com/topics/react
+    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png
+
+  - name: Tensorflow
+    web_url: https://www.tensorflow.org
+    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/TensorFlowLogo.svg/2000px-TensorFlowLogo.svg.png
+  
+  - name: GatsbyJS
+    web_url: https://www.gatsbyjs.org/
+    image_url: https://avatars3.githubusercontent.com/u/12551863?s=400&v=4
+    
+  - name: Angular
+    web_url: https://github.com/topics/angular
+    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png
+    
+  - name: Scikit-learn
+    web_url: https://scikit-learn.org/
+    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png
