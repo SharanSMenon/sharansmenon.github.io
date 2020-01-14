@@ -79,3 +79,7 @@ topics:
   - name: Scikit-learn
     web_url: https://scikit-learn.org/
     image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png
+  
+  - name: PyTorch
+    web_url: https://pytorch.org/
+    image_url: https://pytorch.org/assets/images/pytorch-logo.png
