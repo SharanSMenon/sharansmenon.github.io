@@ -32,6 +32,26 @@
   <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
   <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
   </script>
+  <style>
+    img {
+      max-width: 100%;
+    }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #eee;
+    }
+  </style>
 </head>
 
 <body class="bg-white min-height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"
